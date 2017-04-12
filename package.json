@@ -1,0 +1,50 @@
+{
+  "name": "grow-tech-test",
+  "version": "0.0.1",
+  "engines": {
+    "node": "v6.10.1",
+    "npm": "3.10.10"
+  },
+  "description": "Grow tech test",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node src/index.js",
+    "watch": "nodemon src/index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niraj Aryal",
+  "license": "ISC",
+  "config": {
+    "port": "3000"
+  },
+  "dependencies": {
+    "async": "^2.3.0",
+    "babel-cli": "^6.18.0",
+    "babel-runtime": "^6.20.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "^4.15.2",
+    "forever": "^0.15.3",
+    "lodash": "^4.16.1",
+    "mkdirp": "^0.5.1",
+    "morgan": "~1.8.1",
+    "query-string": "^4.3.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.16.3",
+    "eslint": "^3.7.1",
+    "eslint-plugin-compat": "^1.0.2",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-watch": "^2.1.14",
+    "nodemon": "^1.11.0",
+    "sass-lint": "^1.10.2"
+  }
+}
